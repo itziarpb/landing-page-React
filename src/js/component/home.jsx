@@ -9,12 +9,14 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<Jumbotron />
-			<div className="d-flex m-auto">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+			<div className="container">
+				<Jumbotron />
+				<div className="d-flex my-5">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
 			
 			<Footer />
