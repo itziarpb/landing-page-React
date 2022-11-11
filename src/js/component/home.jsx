@@ -11,7 +11,7 @@ const Home = () => {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
-				<div className="d-flex my-5 row row-cols-xl-4 row-cols-lg-3 mx-auto justify-content-center">
+				<div className="d-flex my-5 row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 mx-auto justify-content-center">
 					<Card />
 					<Card />
 					<Card />
