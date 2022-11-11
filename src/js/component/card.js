@@ -3,7 +3,7 @@ import imagenCard from "../../img/500x325.png";
 
 const Card =()=>{
     return (
-        <div className="card mx-3">
+        <div className="card ">
         <img src={imagenCard} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Card title</h5>
